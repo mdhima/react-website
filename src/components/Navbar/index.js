@@ -13,20 +13,20 @@ const Navbar = ({toggle}) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='about'>About</NavLinks>
+                            <NavLinks to='Music'>Music</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='movies'>Movies</NavLinks>
+                            <NavLinks to='Videos'>Videos</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='skills'>Skills</NavLinks>
+                            <NavLinks to='Places'>Places</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='find'>Find</NavLinks>
+                            <NavLinks to='Movies'>Movies</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+                        <NavBtnLink to={{ pathname: "https://www.youtube.com/watch?v=Nl54MJDR2p8" }} target="_blank">Source</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

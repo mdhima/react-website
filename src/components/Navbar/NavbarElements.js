@@ -4,7 +4,7 @@ import { Link as LinkRouter } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: mediumvioletred;
+    background: #D1236F;
     height: 75px;
     // margin-top: -80px;
     display: flex;

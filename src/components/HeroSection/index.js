@@ -21,7 +21,7 @@ const HeroSection = () => {
                         This is my React Website. Hit on the button to view my other projects.
                     </HeroP>
                     <HeroBtnWrapper>
-                        <Button to='/signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+                        <Button to={{pathname: 'https://github.com/mdhima'}} target="_blank" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
                             My Github {hover ? <ArrowForward/> : <ArrowRight/>}
                         </Button>
                     </HeroBtnWrapper>
